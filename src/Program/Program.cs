@@ -73,4 +73,13 @@ namespace Full_GRASP_And_SOLID
         }
     }
 }
+/*Desafío(s)
+Para imprimir una receta se necesita información de la receta pero también se necesita saber cómo y dónde imprimir.
 
+➡️ Crear una clase ConsolePrinter para imprimir las recetas en la consola en lugar que las recetas se impriman a sí mismas.
+
+➡️ ¿Qué patrones o principios usan para determinar cómo implementar este cambio? Escriban la respuesta en comentarios en el código.*/
+
+
+//En este ejercicio se crea la clase ConsolePrinter con el objetivo de que cumpla SRP ya que la clase receta no deberia estar imprimiendose a si misma. Ademas pensando
+//en un futuro cambio de Impresiones, es correcto tener una clase para imprimir.
