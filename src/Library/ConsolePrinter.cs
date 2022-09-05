@@ -22,10 +22,7 @@ namespace Full_GRASP_And_SOLID.Library
             }
             
         }
-         public void PrintTotal (Recipe total)
-         {
-            Console.WriteLine (total);
-         }
+
     }
 
     
